@@ -106,7 +106,7 @@ body {
 	line-height: 1.5;
 	color: #212529;
 	text-align: left;
-	background-color: #fff
+	background-color: #fff;
 }
 [tabindex="-1"]:focus {
 	outline: 0!important
@@ -429,7 +429,7 @@ hr {
 	display: inline-block
 }
 .figure-img {
-	margin-bottom: 15 rem;
+	margin-bottom: .5rem;
 	line-height: 1
 }
 .figure-caption {
@@ -4658,7 +4658,7 @@ a.bg-primary:focus, a.bg-primary:hover {
 	background: linear-gradient(#e3b71f, #fed136)!important;
 }
 a.bg-about:focus, a.bg-about:hover {
-	background: linear-gradient(red, yellow)!important
+	background: #000!important
 }
 .bg-secondary {
 	background-color: #868e96!important
@@ -7148,8 +7148,4 @@ a.text-dark:focus, a.text-dark:hover {
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
 
-@media min-width: 360px){
-	.container{
-		max-width: 320px
-	}
-}
+
