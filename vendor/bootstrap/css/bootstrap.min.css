@@ -7147,3 +7147,9 @@ a.text-dark:focus, a.text-dark:hover {
 	border-bottom-color: #ebccd1
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+@media min-width: 360px){
+	.container{
+		max-width: 320px
+	}
+}
