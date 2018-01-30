@@ -4655,7 +4655,16 @@ a.bg-primary:focus, a.bg-primary:hover {
 	background-color: #F0D132!important
 }
 .bg-about {
-	background: linear-gradient(#e3b71f, #fed136)!important;
+	text-align: center;
+	color: white;
+	background-image: url(../img/sobre.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover
 }
 a.bg-about:focus, a.bg-about:hover {
 	background: #000!important
