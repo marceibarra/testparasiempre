@@ -44,6 +44,9 @@ section h7.section-body{
 }
 
 @media (min-width:768px) {
+header.masthead .intro-text {
+	padding-top: 80px;
+}
 section {
 	padding: 150px 0
 }
@@ -166,7 +169,7 @@ header.masthead {
 	height:100vh
 }
 header.masthead .intro-text {
-	padding-top: 70px!important;
+	padding-top: 80px;
 }
 header.masthead .intro-text .intro-lead-in {
 	font-size: 22px;
@@ -184,10 +187,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width:768px) {
-header.masthead .intro-text {
-	padding-top: 100px;
-	height: 100%
-}
+
 header.masthead .intro-text .intro-lead-in {
 	font-size: 40px;
 	font-style: italic;
