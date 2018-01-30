@@ -147,6 +147,7 @@ body {
 	padding: 12px 0
 }
 }
+
 header.masthead {
 	text-align: center;
 	color: #fff;
@@ -157,11 +158,11 @@ header.masthead {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover
+	background-size: cover;
+	height:100vh
 }
 header.masthead .intro-text {
 	padding-top: 100px;
-	padding-bottom: 50%
 }
 header.masthead .intro-text .intro-lead-in {
 	font-size: 22px;
@@ -173,15 +174,15 @@ header.masthead .intro-text .intro-lead-in {
 header.masthead .intro-text .intro-heading {
 	font-size: 50px;
 	font-weight: 700;
-	line-height: 50px;
 	margin-bottom: 25px;
-	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif
+	font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	height:100%
 }
 
 @media (min-width:768px) {
 header.masthead .intro-text {
 	padding-top: 100px;
-	padding-bottom: 45%
+	height: 100%
 }
 header.masthead .intro-text .intro-lead-in {
 	font-size: 40px;
@@ -726,3 +727,4 @@ max-resolution: 100%;
 	-o-background-size: cover;
 	background-size: cover
 }
+
