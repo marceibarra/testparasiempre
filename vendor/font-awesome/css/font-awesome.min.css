@@ -2211,3 +2211,10 @@ transform:rotate(359deg)
 	overflow: visible;
 	clip: auto
 }
+.fa-stack-5x {
+	position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    text-align: center;
+}
