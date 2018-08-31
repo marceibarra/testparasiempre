@@ -17,12 +17,12 @@
 	padding: .9rem 0
 }
 #mainNav .navbar-nav .nav-item:hover {
-	color: black;
+	color: #456EE2;
 	outline: 0;
 	background-color: transparent
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
-	color: black;
+	color: #456EE2;
 	outline: 0;
 	background-color: transparent
 }
@@ -33,7 +33,6 @@
 	padding-bottom: 0;
 	border-bottom: none;
 	
-	transition: background-color .3s ease-in-out
 }
 #mainNav .navbar-brand {
 	padding: .5rem 0;
@@ -42,13 +41,13 @@
 #mainNav .nav-link {
 	transition: none;
 	padding: 2rem 1.5rem;
-	color: rgb(255,255,255)
+	color: #000
 }
 #mainNav .nav-link:hover {
-	color: rgb(255,255,255)
+	color: #456EE2
 }
 #mainNav .nav-link:active {
-	color: #fff
+	color: #456EE2
 }
 #mainNav.navbar-shrink {
 	background-color: #fff
@@ -240,7 +239,7 @@ a {
 }
 a:focus, a:hover {
 	text-decoration: none;
-	color: #3c6360
+	color: #456EE2
 }
 .bg-black {
 	background-color: #161616!important
@@ -270,3 +269,22 @@ footer {
 .btn-white:active {
 	background-color: #fff!important
 	}	
+
+.social {
+	margin-top: 5rem
+}
+.social a {
+	text-align: center;
+	height: 3rem;
+	width: 3rem;
+	background: #000!important
+	border-radius: 100%;
+	line-height: 3rem;
+	color: #000!important
+}
+.social a:hover {
+	color: #000!important
+}
+.social a:active {
+	color: #fff
+}
