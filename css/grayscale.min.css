@@ -85,7 +85,7 @@
 	background-size: cover
 }
 .masthead h1 {
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-family: 'Montserrat', sans-serif;
 	font-size: 2.5rem;
 	line-height: 2.5rem;
 	letter-spacing: -0.1rem;
@@ -147,7 +147,8 @@
 	background: linear-gradient(to bottom, #466FE3 0, rgba(70,111,227,.9) 75%, rgba(70,111,227,.8) 100%)
 }
 .about-section p {
-	margin-bottom: 5rem
+	margin-bottom: 5rem;
+	font-family: 'Montserrat', sans-serif
 }
 .projects-section {
 	padding: 10rem 0
